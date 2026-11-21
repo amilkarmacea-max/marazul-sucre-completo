@@ -1,0 +1,625 @@
+Window: "MySQL Workbench", App: MySQLWorkbench.exe.
+	0 window (ventana) MySQL Workbench Secondary Actions: Raise ID: MainForm
+		1 tab (tabulación) ID: contentTabControl
+			1759 pane (panel) marazul-sucre - Warning - not supported ID: 1313204
+				1760 window (ventana) SQL Editor Secondary Actions: Raise ID: SqlIdeForm
+					1761 pane (panel) ID: 1055058
+						1762 pane (panel) ID: mainSplitContainer
+							1763 pane (panel) ID: 1049060
+								1764 pane (panel) ID: sideArea
+									1765 pane (panel) SQL IDE Sidebar Splitter ID: SQL IDE Sidebar Splitter
+										1766 pane (panel) ID: 657812
+											1767 pane (panel) ID: 985358
+												1768 pane (panel) ID: 1050780
+													1769 tab (tabulación) SQL IDE Sidebar Tabview ID: SQL IDE Sidebar Tabview
+														1770 pane (panel) Schemas ID: 1376750
+															1771 pane (panel) Schema Page ID: Schema Page
+																1772 pane (panel) ID: 334318
+																	1773 pane (panel) Schema Search Box ID: Schema Search Box
+																		1774 pane (panel) ID: 658328
+																		1775 text field (editar) (settable, string) Schema Filter Entry Value: Filter objects ID: Schema Filter Entry
+																	1776 tree (árbol) Schema Tree ID: Schema Tree
+																		10719 tree item (elemento del árbol) (selectable) defaultdb
+																			10720 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap defaultdb
+																		10721 tree item (elemento del árbol) (selectable) marazul_sucre
+																			10722 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap marazul_sucre
+																			10723 tree item (elemento del árbol) (selectable) Tables
+																				10724 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap Tables
+																			10725 tree item (elemento del árbol) (selectable) Views
+																				10726 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap Views
+																			10727 tree item (elemento del árbol) (selectable) Stored Procedures
+																				10728 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap Stored Procedures
+																			10729 tree item (elemento del árbol) (selectable) Functions
+																				10730 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap Functions
+																		10731 tree item (elemento del árbol) (selectable) sys
+																			10732 data item (elemento) (settable, string) Schema Value: System.Drawing.Bitmap sys
+																1783 tree item (elemento del árbol) (selectable) SCHEMAS ID: 727520
+																	10733 button (botón) Refresh
+														10734 tab item (elemento de la pestaña) (selectable) Administration
+														10735 tab item (elemento de la pestaña) (selectable) Schemas
+										1787 pane (panel) ID: 854288
+											1788 pane (panel) ID: 723252
+												1789 tab (tabulación) Info View ID: Info View
+													1790 pane (panel) Object Info ID: 657682
+														1791 pane (panel) <html><body style='padding:15px; font-family:Tahoma; font-size: 9pt; color: #000000;'><b>No object selected</b></body></html> ID: 526732
+													10736 tab item (elemento de la pestaña) (selectable) Object Info
+													10737 tab item (elemento de la pestaña) (selectable) Session
+							1794 pane (panel) ID: 1049794
+								1795 pane (panel) ID: contentSplitContainer
+									1796 pane (panel) ID: 1573706
+										1797 pane (panel) ID: mainContentSplitContainer
+											1798 pane (panel) ID: 264408
+												1799 tab (tabulación) ID: mainContentTabControl
+													4276 pane (panel) 04_DCL ID: 985600
+														4277 window (ventana) Secondary Actions: Raise ID: 14682352
+															4278 pane (panel) Query Buffer ID: Query Buffer
+																4279 pane (panel) ID: 41159904
+																	4280 pane (panel) ID: 22220056
+																		4281 pane (panel) Editor Area ID: Editor Area
+																			4282 toolbar (barra de herramientas) Editor Toolbar ID: Editor Toolbar
+																				4283 combo box (cuadro combinado) (settable, string) Limit Rows Value: Limit to 1000 rows ID: 920008
+																					10738 text (texto) (settable, string) Limit Rows Value: Limit to 1000 rows
+																					10739 button (botón) Abrir
+																				10740 thumb (miniatura) Control
+																				10741 button (botón) Open File
+																				10742 button (botón) Save File
+																				10743 separator (separador)
+																				10744 button (botón) Execute
+																				10745 button (botón) Execute Current Statement
+																				10746 button (botón) Explain Current Statement
+																				10747 button (botón) (disabled) Cancel
+																				10748 separator (separador)
+																				10749 button (botón) Continue On Error
+																				10750 separator (separador)
+																				10751 button (botón) (disabled) Commit
+																				10752 button (botón) (disabled) Rollback
+																				10753 button (botón) Auto Commit
+																				10754 separator (separador)
+																				10755 separator (separador)
+																				10756 button (botón) Add Snippet
+																				10757 separator (separador)
+																				10758 button (botón) Beautify
+																				10759 button (botón) Search
+																				10760 button (botón) Toggle Invisible
+																				10761 button (botón) Toggle Word Wrap
+																				10762 menu item (elemento de menú) Opciones de barra de herramientas
+																			4309 pane (panel) Code Editor ID: Code Editor
+																				4310 scroll bar (barra de desplazamiento) (settable, float) Vertical Value: 0 ID: NonClientVerticalScrollBar
+																					4311 button (botón) Línea arriba ID: UpButton
+																					4312 thumb (miniatura) Posición ID: ScrollbarThumb
+																					4313 button (botón) Av Pág ID: DownPageButton
+																					4314 button (botón) Línea abajo ID: DownButton
+																				4315 scroll bar (barra de desplazamiento) (settable, float) Horizontal Value: 0 ID: NonClientHorizontalScrollBar
+																					4316 button (botón) Columna a la izquierda ID: UpButton
+																					4317 thumb (miniatura) Posición ID: ScrollbarThumb
+																					4318 button (botón) Página a la derecha ID: DownPageButton
+																					4319 button (botón) Columna a la derecha ID: DownButton
+																				4320 thumb (miniatura) (disabled)
+																	8079 pane (panel) ID: 1116900
+																		8080 pane (panel) ID: 1509292
+																			8081 text (texto) Read Only ID: 1640472
+																			8082 pane (panel) Read Only ID: 4131038
+																		8083 tab (tabulación) Resultset Placeholder ID: Resultset Placeholder
+																			8084 pane (panel) Result 5 ID: 200518
+																				8085 pane (panel) Query Result ID: Query Result
+																					8086 tab (tabulación) Resultset Views ID: Resultset Views
+																						8087 pane (panel) Result Grid ID: 462602
+																							8088 pane (panel) Resultset Host ID: Resultset Host
+																								8089 toolbar (barra de herramientas) Resultset Toolbar ID: Resultset Toolbar
+																									8090 text field (editar) (settable, string) Search Field ID: 592550
+																									10763 text (texto) Result Grid
+																									10764 separator (separador)
+																									10765 button (botón) Reset Record Sort
+																									10766 text (texto) Filter Rows
+																									10767 separator (separador)
+																									10768 text (texto) Export or Import
+																									10769 button (botón) Export Record
+																									10770 separator (separador)
+																									10771 text (texto) Wrap Cell Content
+																									10772 button (botón) Wrap Vertical
+																									10773 separator (separador)
+																									10774 button (botón) Side Toggle
+																									10775 menu item (elemento de menú) Opciones de barra de herramientas
+																								8104 table (tabla) Result Grid Wrapper ID: Result Grid Wrapper
+																									10776 custom Fila superior
+																										10777 header (encabezado) Celda de encabezado superior izquierda Description: DataGridViewTopLeftHeaderCell(DataGridViewColumnHeaderCell)
+																										10778 header (encabezado) (settable, string) Grants for usr_inspector1@% Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: Grants for usr_inspector1@%
+																									10779 custom Fila 0
+																										10780 header (encabezado) Fila 0 Description: DataGridViewRowHeaderCell(DataGridViewHeaderCell)
+																										10781 data item (elemento) (settable, string) Grants for usr_inspector1@% Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT USAGE ON *.* TO "usr_inspector1"@"%"
+																									10782 custom Fila 1
+																										10783 header (encabezado) Fila 1 Description: DataGridViewRowHeaderCell(DataGridViewHeaderCell)
+																										10784 data item (elemento) (settable, string) Grants for usr_inspector1@% Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON "marazul_sucre"."catches" TO "usr_inspector1"@"%"
+																									10785 custom Fila 2
+																										10786 header (encabezado) Fila 2 Description: DataGridViewRowHeaderCell(DataGridViewHeaderCell)
+																										10787 data item (elemento) (settable, string) Grants for usr_inspector1@% Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON "marazul_sucre"."fishing_trips" TO "usr_inspector1"@"%"
+																									10788 custom Fila 3
+																										10789 header (encabezado) Fila 3 Description: DataGridViewRowHeaderCell(DataGridViewHeaderCell)
+																										10790 data item (elemento) (settable, string) Grants for usr_inspector1@% Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON "marazul_sucre"."species" TO "usr_inspector1"@"%"
+																									10791 custom Fila 4
+																										10792 header (encabezado) Fila 4 Description: DataGridViewRowHeaderCell(DataGridViewHeaderCell)
+																										10793 data item (elemento) (settable, string) Grants for usr_inspector1@% Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT "rol_inspector_aunap"@"%" TO "usr_inspector1"@"%"
+																						10794 tab item (elemento de la pestaña) (selectable) Result Grid
+																						10795 tab item (elemento de la pestaña) (selectable) Form Editor
+																						10796 tab item (elemento de la pestaña) (selectable) Field Types
+																						10797 tab item (elemento de la pestaña) (selectable) Query Stats
+																						10798 tab item (elemento de la pestaña) (selectable) Execution Plan
+																					8128 list (lista) Resultset View Switcher ID: 200514
+																						10799 list item (elemento de lista) (selectable) Result Grid
+																						10800 list item (elemento de lista) (selectable) Form Editor
+																						10801 list item (elemento de lista) (selectable) Field Types
+																						10802 list item (elemento de lista) (selectable) Query Stats
+																						10803 list item (elemento de lista) (selectable) Execution Plan
+																			10804 tab item (elemento de la pestaña) (selectable) table_privileges 1
+																			10805 tab item (elemento de la pestaña) (selectable) table_privileges 2
+																			10806 tab item (elemento de la pestaña) (selectable) Result 3
+																			10807 tab item (elemento de la pestaña) (selectable) Result 4
+																			10808 tab item (elemento de la pestaña) (selectable) Result 5
+													1845 spinner (controles de giro) ID: 1
+														1846 button (botón) Más ID: MoreButton
+														1847 button (botón) Menos ID: LessButton
+													10809 tab item (elemento de la pestaña) (selectable) 01_DDL
+													10810 tab item (elemento de la pestaña) (selectable) 01_DDL_RETOS
+													10811 tab item (elemento de la pestaña) (selectable) 02_DML_JOIN
+													10812 tab item (elemento de la pestaña) (selectable) 03_DML_SUBCONSULTAS
+													10813 tab item (elemento de la pestaña) (selectable) 04_DCL
+													10814 tab item (elemento de la pestaña) (selectable) 05_TCL
+													10815 tab item (elemento de la pestaña) (selectable) 06_VISTAS
+													10816 tab item (elemento de la pestaña) (selectable) 07_FUNCIONES
+													10817 tab item (elemento de la pestaña) (selectable) 08_PROCEDIMIENTOS
+													10818 tab item (elemento de la pestaña) (selectable) 09_TRIGGERS
+													10819 tab item (elemento de la pestaña) (selectable) SQL File 11*
+													10820 tab item (elemento de la pestaña) (selectable) 04_DCL
+									1859 pane (panel) ID: 33032454
+										1860 pane (panel) ID: outputHeader
+											1861 pane (panel) ID: outputPageContent
+												1862 pane (panel) ID: actionPanel
+													1863 table (tabla) DataGridView ID: 2165068
+														7763 scroll bar (barra de desplazamiento) (settable, string) Barra de desplazamiento vertical Value: 100 ID: 7145988
+															10821 button (botón) Línea arriba
+															10822 button (botón) Re Pág
+															10823 thumb (miniatura) Posición
+															10824 button (botón) Línea abajo
+														10825 custom Fila superior
+															10826 header (encabezado) Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell)
+															10827 header (encabezado) (settable, string) # Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: #
+															10828 header (encabezado) (settable, string) Time Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: Time
+															10829 header (encabezado) (settable, string) Action Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: Action
+															10830 header (encabezado) (settable, string) Message Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: Message
+															10831 header (encabezado) (settable, string) Duration / Fetch Description: DataGridViewColumnHeaderCell(DataGridViewHeaderCell) Value: Duration / Fetch
+														10832 custom Fila 0
+															10833 data item (elemento) (settable, string) Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10834 data item (elemento) (settable, string) # Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 1
+															10835 data item (elemento) (settable, string) Time Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10836 data item (elemento) (settable, string) Action Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: USE marazul_sucre
+															10837 data item (elemento) (settable, string) Message Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10838 data item (elemento) (settable, string) Duration / Fetch Fila 0 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10839 custom Fila 1
+															10840 data item (elemento) (settable, string) Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10841 data item (elemento) (settable, string) # Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 2
+															10842 data item (elemento) (settable, string) Time Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10843 data item (elemento) (settable, string) Action Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP USER IF EXISTS 'usr_operador1'@'%'
+															10844 data item (elemento) (settable, string) Message Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10845 data item (elemento) (settable, string) Duration / Fetch Fila 1 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10846 custom Fila 2
+															10847 data item (elemento) (settable, string) Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10848 data item (elemento) (settable, string) # Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10849 data item (elemento) (settable, string) Time Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10850 data item (elemento) (settable, string) Action Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP USER IF EXISTS 'usr_comercial1'@'%'
+															10851 data item (elemento) (settable, string) Message Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10852 data item (elemento) (settable, string) Duration / Fetch Fila 2 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10853 custom Fila 3
+															10854 data item (elemento) (settable, string) Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10855 data item (elemento) (settable, string) # Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 4
+															10856 data item (elemento) (settable, string) Time Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10857 data item (elemento) (settable, string) Action Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP USER IF EXISTS 'usr_inspector1'@'%'
+															10858 data item (elemento) (settable, string) Message Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10859 data item (elemento) (settable, string) Duration / Fetch Fila 3 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														10860 custom Fila 4
+															10861 data item (elemento) (settable, string) Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10862 data item (elemento) (settable, string) # Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 5
+															10863 data item (elemento) (settable, string) Time Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10864 data item (elemento) (settable, string) Action Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP ROLE IF EXISTS 'rol_operador_muelle'
+															10865 data item (elemento) (settable, string) Message Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10866 data item (elemento) (settable, string) Duration / Fetch Fila 4 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10867 custom Fila 5
+															10868 data item (elemento) (settable, string) Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10869 data item (elemento) (settable, string) # Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 6
+															10870 data item (elemento) (settable, string) Time Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10871 data item (elemento) (settable, string) Action Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP ROLE IF EXISTS 'rol_gestor_comercial'
+															10872 data item (elemento) (settable, string) Message Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10873 data item (elemento) (settable, string) Duration / Fetch Fila 5 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														10874 custom Fila 6
+															10875 data item (elemento) (settable, string) Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10876 data item (elemento) (settable, string) # Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 7
+															10877 data item (elemento) (settable, string) Time Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10878 data item (elemento) (settable, string) Action Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: DROP ROLE IF EXISTS 'rol_inspector_aunap'
+															10879 data item (elemento) (settable, string) Message Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10880 data item (elemento) (settable, string) Duration / Fetch Fila 6 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10881 custom Fila 7
+															10882 data item (elemento) (settable, string) Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10883 data item (elemento) (settable, string) # Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 8
+															10884 data item (elemento) (settable, string) Time Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10885 data item (elemento) (settable, string) Action Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE ROLE 'rol_operador_muelle'
+															10886 data item (elemento) (settable, string) Message Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10887 data item (elemento) (settable, string) Duration / Fetch Fila 7 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10888 custom Fila 8
+															10889 data item (elemento) (settable, string) Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10890 data item (elemento) (settable, string) # Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 9
+															10891 data item (elemento) (settable, string) Time Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10892 data item (elemento) (settable, string) Action Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE ROLE 'rol_gestor_comercial'
+															10893 data item (elemento) (settable, string) Message Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10894 data item (elemento) (settable, string) Duration / Fetch Fila 8 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10895 custom Fila 9
+															10896 data item (elemento) (settable, string) Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10897 data item (elemento) (settable, string) # Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 10
+															10898 data item (elemento) (settable, string) Time Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10899 data item (elemento) (settable, string) Action Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE ROLE 'rol_inspector_aunap'
+															10900 data item (elemento) (settable, string) Message Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10901 data item (elemento) (settable, string) Duration / Fetch Fila 9 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10902 custom Fila 10
+															10903 data item (elemento) (settable, string) Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10904 data item (elemento) (settable, string) # Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 11
+															10905 data item (elemento) (settable, string) Time Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10906 data item (elemento) (settable, string) Action Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT, INSERT, UPDATE ON marazul_sucre.fishing_trips TO 'rol_operador_muelle'
+															10907 data item (elemento) (settable, string) Message Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10908 data item (elemento) (settable, string) Duration / Fetch Fila 10 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10909 custom Fila 11
+															10910 data item (elemento) (settable, string) Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10911 data item (elemento) (settable, string) # Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 12
+															10912 data item (elemento) (settable, string) Time Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:05
+															10913 data item (elemento) (settable, string) Action Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT, INSERT, UPDATE ON marazul_sucre.catches TO 'rol_operador_muelle'
+															10914 data item (elemento) (settable, string) Message Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10915 data item (elemento) (settable, string) Duration / Fetch Fila 11 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10916 custom Fila 12
+															10917 data item (elemento) (settable, string) Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10918 data item (elemento) (settable, string) # Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 13
+															10919 data item (elemento) (settable, string) Time Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10920 data item (elemento) (settable, string) Action Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT, INSERT, UPDATE ON marazul_sucre.sales TO 'rol_gestor_comercial'
+															10921 data item (elemento) (settable, string) Message Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10922 data item (elemento) (settable, string) Duration / Fetch Fila 12 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														10923 custom Fila 13
+															10924 data item (elemento) (settable, string) Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10925 data item (elemento) (settable, string) # Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 14
+															10926 data item (elemento) (settable, string) Time Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10927 data item (elemento) (settable, string) Action Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT, INSERT, UPDATE ON marazul_sucre.sale_details TO 'rol_gestor_comercial'
+															10928 data item (elemento) (settable, string) Message Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10929 data item (elemento) (settable, string) Duration / Fetch Fila 13 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10930 custom Fila 14
+															10931 data item (elemento) (settable, string) Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10932 data item (elemento) (settable, string) # Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 15
+															10933 data item (elemento) (settable, string) Time Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10934 data item (elemento) (settable, string) Action Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON marazul_sucre.fishing_trips TO 'rol_inspector_aunap'
+															10935 data item (elemento) (settable, string) Message Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10936 data item (elemento) (settable, string) Duration / Fetch Fila 14 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.079 sec
+														10937 custom Fila 15
+															10938 data item (elemento) (settable, string) Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10939 data item (elemento) (settable, string) # Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 16
+															10940 data item (elemento) (settable, string) Time Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10941 data item (elemento) (settable, string) Action Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON marazul_sucre.catches TO 'rol_inspector_aunap'
+															10942 data item (elemento) (settable, string) Message Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10943 data item (elemento) (settable, string) Duration / Fetch Fila 15 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10944 custom Fila 16
+															10945 data item (elemento) (settable, string) Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10946 data item (elemento) (settable, string) # Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 17
+															10947 data item (elemento) (settable, string) Time Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10948 data item (elemento) (settable, string) Action Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT SELECT ON marazul_sucre.species TO 'rol_inspector_aunap'
+															10949 data item (elemento) (settable, string) Message Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10950 data item (elemento) (settable, string) Duration / Fetch Fila 16 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														10951 custom Fila 17
+															10952 data item (elemento) (settable, string) Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10953 data item (elemento) (settable, string) # Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 18
+															10954 data item (elemento) (settable, string) Time Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10955 data item (elemento) (settable, string) Action Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT DELETE ON marazul_sucre.sales TO 'rol_gestor_comercial'
+															10956 data item (elemento) (settable, string) Message Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10957 data item (elemento) (settable, string) Duration / Fetch Fila 17 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														10958 custom Fila 18
+															10959 data item (elemento) (settable, string) Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10960 data item (elemento) (settable, string) # Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 19
+															10961 data item (elemento) (settable, string) Time Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10962 data item (elemento) (settable, string) Action Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SELECT grantee, table_name, privilege_type FROM information_schema.table_privileges WHERE table_schema = 'marazul_sucre' AND table_name = 'sales' AND privilege_type = 'DELETE' AND grantee LIKE '%rol_gestor_comercial%' LIMIT 0, 1000
+															10963 data item (elemento) (settable, string) Message Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 1 row(s) returned
+															10964 data item (elemento) (settable, string) Duration / Fetch Fila 18 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec / 0.000 sec
+														10965 custom Fila 19
+															10966 data item (elemento) (settable, string) Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10967 data item (elemento) (settable, string) # Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 20
+															10968 data item (elemento) (settable, string) Time Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10969 data item (elemento) (settable, string) Action Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: REVOKE DELETE ON marazul_sucre.sales FROM 'rol_gestor_comercial'
+															10970 data item (elemento) (settable, string) Message Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10971 data item (elemento) (settable, string) Duration / Fetch Fila 19 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10972 custom Fila 20
+															10973 data item (elemento) (settable, string) Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10974 data item (elemento) (settable, string) # Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21
+															10975 data item (elemento) (settable, string) Time Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10976 data item (elemento) (settable, string) Action Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SELECT grantee, table_name, privilege_type FROM information_schema.table_privileges WHERE table_schema = 'marazul_sucre' AND table_name = 'sales' AND privilege_type = 'DELETE' AND grantee LIKE '%rol_gestor_comercial%' LIMIT 0, 1000
+															10977 data item (elemento) (settable, string) Message Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) returned
+															10978 data item (elemento) (settable, string) Duration / Fetch Fila 20 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec / 0.000 sec
+														10979 custom Fila 21
+															10980 data item (elemento) (settable, string) Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10981 data item (elemento) (settable, string) # Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 22
+															10982 data item (elemento) (settable, string) Time Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10983 data item (elemento) (settable, string) Action Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE USER 'usr_operador1'@'%' IDENTIFIED BY 'Muelle#Op1_2026'
+															10984 data item (elemento) (settable, string) Message Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10985 data item (elemento) (settable, string) Duration / Fetch Fila 21 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														10986 custom Fila 22
+															10987 data item (elemento) (settable, string) Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10988 data item (elemento) (settable, string) # Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 23
+															10989 data item (elemento) (settable, string) Time Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10990 data item (elemento) (settable, string) Action Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE USER 'usr_comercial1'@'%' IDENTIFIED BY 'Ventas#Com1_2026'
+															10991 data item (elemento) (settable, string) Message Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10992 data item (elemento) (settable, string) Duration / Fetch Fila 22 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														10993 custom Fila 23
+															10994 data item (elemento) (settable, string) Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															10995 data item (elemento) (settable, string) # Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 24
+															10996 data item (elemento) (settable, string) Time Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:06
+															10997 data item (elemento) (settable, string) Action Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: CREATE USER 'usr_inspector1'@'%' IDENTIFIED BY 'Aunap#Insp1_2026'
+															10998 data item (elemento) (settable, string) Message Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															10999 data item (elemento) (settable, string) Duration / Fetch Fila 23 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														11000 custom Fila 24
+															11001 data item (elemento) (settable, string) Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11002 data item (elemento) (settable, string) # Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 25
+															11003 data item (elemento) (settable, string) Time Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11004 data item (elemento) (settable, string) Action Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT 'rol_operador_muelle' TO 'usr_operador1'@'%'
+															11005 data item (elemento) (settable, string) Message Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11006 data item (elemento) (settable, string) Duration / Fetch Fila 24 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														11007 custom Fila 25
+															11008 data item (elemento) (settable, string) Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11009 data item (elemento) (settable, string) # Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 26
+															11010 data item (elemento) (settable, string) Time Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11011 data item (elemento) (settable, string) Action Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT 'rol_gestor_comercial' TO 'usr_comercial1'@'%'
+															11012 data item (elemento) (settable, string) Message Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11013 data item (elemento) (settable, string) Duration / Fetch Fila 25 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														11014 custom Fila 26
+															11015 data item (elemento) (settable, string) Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11016 data item (elemento) (settable, string) # Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 27
+															11017 data item (elemento) (settable, string) Time Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11018 data item (elemento) (settable, string) Action Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: GRANT 'rol_inspector_aunap' TO 'usr_inspector1'@'%'
+															11019 data item (elemento) (settable, string) Message Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11020 data item (elemento) (settable, string) Duration / Fetch Fila 26 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														11021 custom Fila 27
+															11022 data item (elemento) (settable, string) Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11023 data item (elemento) (settable, string) # Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 28
+															11024 data item (elemento) (settable, string) Time Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11025 data item (elemento) (settable, string) Action Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SET DEFAULT ROLE 'rol_operador_muelle' TO 'usr_operador1'@'%'
+															11026 data item (elemento) (settable, string) Message Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11027 data item (elemento) (settable, string) Duration / Fetch Fila 27 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.063 sec
+														11028 custom Fila 28
+															11029 data item (elemento) (settable, string) Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11030 data item (elemento) (settable, string) # Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 29
+															11031 data item (elemento) (settable, string) Time Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11032 data item (elemento) (settable, string) Action Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SET DEFAULT ROLE 'rol_gestor_comercial' TO 'usr_comercial1'@'%'
+															11033 data item (elemento) (settable, string) Message Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11034 data item (elemento) (settable, string) Duration / Fetch Fila 28 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec
+														11035 custom Fila 29
+															11036 data item (elemento) (settable, string) Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11037 data item (elemento) (settable, string) # Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 30
+															11038 data item (elemento) (settable, string) Time Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11039 data item (elemento) (settable, string) Action Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SET DEFAULT ROLE 'rol_inspector_aunap' TO 'usr_inspector1'@'%'
+															11040 data item (elemento) (settable, string) Message Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0 row(s) affected
+															11041 data item (elemento) (settable, string) Duration / Fetch Fila 29 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.062 sec
+														11042 custom Fila 30
+															11043 data item (elemento) (settable, string) Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11044 data item (elemento) (settable, string) # Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 31
+															11045 data item (elemento) (settable, string) Time Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11046 data item (elemento) (settable, string) Action Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SHOW GRANTS FOR 'usr_operador1'@'%' USING 'rol_operador_muelle'
+															11047 data item (elemento) (settable, string) Message Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 4 row(s) returned
+															11048 data item (elemento) (settable, string) Duration / Fetch Fila 30 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec / 0.000 sec
+														11049 custom Fila 31
+															11050 data item (elemento) (settable, string) Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11051 data item (elemento) (settable, string) # Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 32
+															11052 data item (elemento) (settable, string) Time Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11053 data item (elemento) (settable, string) Action Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SHOW GRANTS FOR 'usr_comercial1'@'%' USING 'rol_gestor_comercial'
+															11054 data item (elemento) (settable, string) Message Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 4 row(s) returned
+															11055 data item (elemento) (settable, string) Duration / Fetch Fila 31 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.079 sec / 0.000 sec
+														11056 custom Fila 32
+															11057 data item (elemento) (settable, string) Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 3
+															11058 data item (elemento) (settable, string) # Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 33
+															11059 data item (elemento) (settable, string) Time Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 21:46:07
+															11060 data item (elemento) (settable, string) Action Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: SHOW GRANTS FOR 'usr_inspector1'@'%' USING 'rol_inspector_aunap'
+															11061 data item (elemento) (settable, string) Message Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 5 row(s) returned
+															11062 data item (elemento) (settable, string) Duration / Fetch Fila 32 Description: DataGridViewTextBoxCell(DataGridViewCell) Value: 0.078 sec / 0.000 sec
+											1871 toolbar (barra de herramientas) outputPageToolStrip ID: outputPageToolStrip
+												1872 combo box (cuadro combinado) (settable, string) Value: Action Output ID: 334240
+													11063 text (texto) (settable, string) Value: Action Output
+													11064 button (botón) Abrir
+												11065 text (texto)
+					1876 pane (panel) ID: 985454
+						1877 toolbar (barra de herramientas) SQL IDE Toolbar ID: SQL IDE Toolbar
+							11066 thumb (miniatura) Control
+							11067 button (botón) New File
+							11068 button (botón) Open File
+							11069 separator (separador)
+							11070 button (botón) Show Inspector
+							11071 separator (separador)
+							11072 button (botón) New Schema
+							11073 button (botón) New Table
+							11074 button (botón) New View
+							11075 button (botón) New Routine
+							11076 button (botón) New Function
+							11077 separator (separador)
+							11078 button (botón) Search
+							11079 separator (separador)
+							11080 button (botón) Reconnect to DBMS
+							11081 separator (separador)
+							11082 button (botón) Show Preferences
+							11083 separator (separador)
+							11084 button (botón) Toggle Schema Sidebar
+							11085 button (botón) Toggle Output Area
+							11086 button (botón) Toggle Secondary Sidebar
+							11087 menu item (elemento de menú) Opciones de barra de herramientas
+						1900 menu bar (barra de menús) ID: MenuStrip
+							11088 menu item (elemento de menú) File
+								11089 menu item (elemento de menú) New Document
+								11090 menu item (elemento de menú) New Query Tab
+								11091 menu item (elemento de menú) Open Model
+								11092 menu item (elemento de menú) Open SQL Script
+								11093 menu item (elemento de menú) Open Recent
+									11094 menu item (elemento de menú) Open Recent File 1
+									11095 menu item (elemento de menú) Open Recent File 2
+									11096 menu item (elemento de menú) Open Recent File 3
+									11097 menu item (elemento de menú) Open Recent File 4
+									11098 menu item (elemento de menú) Open Recent File 5
+									11099 menu item (elemento de menú) Open Recent File 6
+									11100 menu item (elemento de menú) Open Recent File 7
+									11101 menu item (elemento de menú) Open Recent File 8
+									11102 menu item (elemento de menú) Open Recent File 9
+									11103 menu item (elemento de menú) Open Recent File 10
+								11104 separator (separador) Separator
+								11105 menu item (elemento de menú) Run SQL Script
+								11106 separator (separador) Separator
+								11107 menu item (elemento de menú) Close Connection Tab
+								11108 menu item (elemento de menú) Close Tab
+								11109 separator (separador) Separator
+								11110 menu item (elemento de menú) Save Script
+								11111 menu item (elemento de menú) Save Script As
+								11112 menu item (elemento de menú) Revert to Saved
+								11113 separator (separador) Separator
+								11114 menu item (elemento de menú) Exit Application
+							11115 menu item (elemento de menú) Edit
+								11116 menu item (elemento de menú) Undo
+								11117 menu item (elemento de menú) (disabled) Redo
+								11118 separator (separador) Separator
+								11119 menu item (elemento de menú) (disabled) Cut
+								11120 menu item (elemento de menú) (disabled) Copy
+								11121 menu item (elemento de menú) Paste
+								11122 menu item (elemento de menú) (disabled) Delete
+								11123 separator (separador) Separator
+								11124 menu item (elemento de menú) Select All
+								11125 separator (separador) Separator
+								11126 menu item (elemento de menú) Select Next Placeholder
+								11127 menu item (elemento de menú) Find
+									11128 menu item (elemento de menú) Find
+									11129 menu item (elemento de menú) Find And Replace
+								11130 menu item (elemento de menú) Format
+									11131 menu item (elemento de menú) Beautify Query
+									11132 separator (separador) Separator
+									11133 menu item (elemento de menú) Upcase Keywords
+									11134 menu item (elemento de menú) Lowcase Keywords
+									11135 menu item (elemento de menú) Toggle Comment on Selection
+								11136 separator (separador) Separator
+								11137 menu item (elemento de menú) Auto Complete
+								11138 separator (separador) Separator
+								11139 menu item (elemento de menú) Preferences
+							11140 menu item (elemento de menú) View
+								11141 menu item (elemento de menú) Home
+								11142 menu item (elemento de menú) Panels
+									11143 menu item (elemento de menú) Toggle Sidebar
+									11144 menu item (elemento de menú) Toggle Secondary Sidebar
+									11145 menu item (elemento de menú) Toggle Output Area
+								11146 separator (separador) Separator
+								11147 menu item (elemento de menú) Select Next Main Tab
+								11148 menu item (elemento de menú) Select Previous Main Tab
+							11149 menu item (elemento de menú) Query
+								11150 menu item (elemento de menú) Execute All or Selection
+								11151 menu item (elemento de menú) Execute to Text
+								11152 menu item (elemento de menú) Execute Current Statement
+								11153 menu item (elemento de menú) Execute Current Statement to Text Output
+								11154 separator (separador) Separator
+								11155 menu item (elemento de menú) Explain Current Statement
+								11156 separator (separador) Separator
+								11157 menu item (elemento de menú) (disabled) Stop
+								11158 menu item (elemento de menú) Stop Script Execution on Errors
+								11159 separator (separador) Separator
+								11160 menu item (elemento de menú) Limit Rows
+									11161 menu item (elemento de menú) Do Not Limit
+									11162 separator (separador)
+									11163 menu item (elemento de menú) Limit to 10 Rows
+									11164 menu item (elemento de menú) Limit to 50 Rows
+									11165 menu item (elemento de menú) Limit to 100 Rows
+									11166 menu item (elemento de menú) Limit to 200 Rows
+									11167 menu item (elemento de menú) Limit to 300 Rows
+									11168 menu item (elemento de menú) Limit to 400 Rows
+									11169 menu item (elemento de menú) Limit to 500 Rows
+									11170 menu item (elemento de menú) Limit to 1000 Rows
+									11171 menu item (elemento de menú) Limit to 2000 Rows
+									11172 menu item (elemento de menú) Limit to 5000 Rows
+									11173 menu item (elemento de menú) Limit to 10000 Rows
+									11174 menu item (elemento de menú) Limit to 50000 Rows
+								11175 menu item (elemento de menú) Collect Performance Schema Statistics
+								11176 separator (separador) Separator
+								11177 menu item (elemento de menú) Reconnect to Server
+								11178 menu item (elemento de menú) New Tab to Current Server
+								11179 separator (separador) Separator
+								11180 menu item (elemento de menú) Auto Commit Transactions
+								11181 menu item (elemento de menú) (disabled) Commit Transaction
+								11182 menu item (elemento de menú) (disabled) Rollback Transaction
+								11183 separator (separador) Separator
+								11184 menu item (elemento de menú) (disabled) Commit Result Edits
+								11185 menu item (elemento de menú) (disabled) Discard Result Edits
+								11186 separator (separador) Separator
+								11187 menu item (elemento de menú) Export Results
+							11188 menu item (elemento de menú) Database
+								11189 menu item (elemento de menú) Connect to Database
+								11190 separator (separador) Separator
+								11191 menu item (elemento de menú) Manage Connections
+								11192 separator (separador) Separator
+								11193 menu item (elemento de menú) Reverse Engineer
+								11194 separator (separador) Separator
+								11195 menu item (elemento de menú) Schema Transfer Wizard
+								11196 menu item (elemento de menú) Migration Wizard
+								11197 menu item (elemento de menú) Edit Type Mappings for Generic Migration
+								11198 separator (separador) Separator
+								11199 menu item (elemento de menú) Search Table Data
+							11200 menu item (elemento de menú) Server
+								11201 menu item (elemento de menú) Server Status
+								11202 menu item (elemento de menú) Client Connections
+								11203 menu item (elemento de menú) Users and Privileges
+								11204 menu item (elemento de menú) Status and System Variables
+								11205 menu item (elemento de menú) Data Export
+								11206 menu item (elemento de menú) Data Import
+								11207 separator (separador) Separator
+								11208 menu item (elemento de menú) Startup or Shutdown
+								11209 menu item (elemento de menú) Server Logs
+								11210 menu item (elemento de menú) Options File
+								11211 separator (separador) Separator
+								11212 menu item (elemento de menú) Dashboard
+								11213 menu item (elemento de menú) Performance Reports
+								11214 menu item (elemento de menú) Performance Schema Setup
+								11215 separator (separador) Separator
+								11216 menu item (elemento de menú) Management Access Settings
+								11217 menu item (elemento de menú) Reset Saved Passwords for Connection
+							11218 menu item (elemento de menú) Tools
+								11219 menu item (elemento de menú) Configuration
+									11220 menu item (elemento de menú) Backup Connections
+									11221 menu item (elemento de menú) Restore Connections
+								11222 menu item (elemento de menú) SQL Utilities
+									11223 menu item (elemento de menú) Copy Server Connection as PHP
+									11224 menu item (elemento de menú) Copy Select Iteration as PHP Code
+								11225 menu item (elemento de menú) MySQL Utilities Shell
+							11226 menu item (elemento de menú) Scripting
+								11227 menu item (elemento de menú) Scripting Shell
+								11228 menu item (elemento de menú) New Script
+								11229 menu item (elemento de menú) Open Script
+								11230 menu item (elemento de menú) (disabled) Run Script File
+								11231 separator (separador) Separator
+								11232 menu item (elemento de menú) Run Workbench Script File
+								11233 menu item (elemento de menú) Install Plugin or Module
+								11234 menu item (elemento de menú) Plugin Manager
+							11235 menu item (elemento de menú) Help
+								11236 menu item (elemento de menú) Help Index
+								11237 separator (separador) Separator
+								11238 menu item (elemento de menú) Show License Info
+								11239 menu item (elemento de menú) MySQL Workbench Documentation
+								11240 menu item (elemento de menú) MySQL Workbench Blog
+								11241 menu item (elemento de menú) MySQL Workbench Forums
+								11242 menu item (elemento de menú) MySQL Website
+								11243 separator (separador) Separator
+								11244 menu item (elemento de menú) Report a Bug
+								11245 menu item (elemento de menú) Locate Log Files
+								11246 menu item (elemento de menú) Show Log File
+								11247 separator (separador) Separator
+								11248 menu item (elemento de menú) Check for Updates
+								11249 separator (separador) Separator
+								11250 menu item (elemento de menú) About Workbench
+			11251 tab item (elemento de la pestaña) (selectable)
+			11252 tab item (elemento de la pestaña) (selectable) marazul-sucre - Warning - not supported
+		123 title bar (barra de título) (settable, string) Value: MySQL Workbench
+			124 menu bar (barra de menús) Sistema ID: MenuBar
+				224 menu item (elemento de menú) Sistema
+			126 button (botón) Minimizar
+			127 button (botón) Maximizar
+			128 button (botón) Cerrar
+
+The focused UI element is 4309 pane (panel) Code Editor ID: Code Editor.
+
+Focused element: 4309 pane (panel) Code Editor ID: Code Editor

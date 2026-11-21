@@ -1,0 +1,152 @@
+[
+  {
+    "tabla": "buyers",
+    "filas": 80,
+    "iguales": true,
+    "sha256": "4a0e705761ce2beb91dd7d510fd4f48500419efc73ef70490accc6aa8e30d474"
+  },
+  {
+    "tabla": "catch_audit",
+    "filas": 0,
+    "iguales": true,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "tabla": "catches",
+    "filas": 535,
+    "iguales": true,
+    "sha256": "cd62aa589a038b1f4456cc99238863d7557cf708ac298e0318ac1ee6df45e8db"
+  },
+  {
+    "tabla": "collection_centers",
+    "filas": 6,
+    "iguales": true,
+    "sha256": "03b9a1c1d8417db715bc5b15b72dc59b4673a9b358ab700a55634241ea7e0755"
+  },
+  {
+    "tabla": "countries",
+    "filas": 1,
+    "iguales": true,
+    "sha256": "6767ab064e2bd28ab65917b79991b5e6a1bf216f2217a687110a3f73168c3cb8"
+  },
+  {
+    "tabla": "departments",
+    "filas": 4,
+    "iguales": true,
+    "sha256": "626c7693abc24c790ae68e7e91c68100e0c4ecf6d87784c8f362e68271a251d7"
+  },
+  {
+    "tabla": "employees",
+    "filas": 24,
+    "iguales": true,
+    "sha256": "d97c4748926ba85f20d90631ae827380ce61db19e4083294c699114c655ca2e7"
+  },
+  {
+    "tabla": "fishermen",
+    "filas": 200,
+    "iguales": true,
+    "sha256": "9eefbed6e4e549b8189adfd18eff72557731fefb50480945d9db18e1de5e3fd9"
+  },
+  {
+    "tabla": "fishing_gears",
+    "filas": 8,
+    "iguales": true,
+    "sha256": "30e926312556f6935b7e15bdd8b372c658c332024151e6e48ab652f5b277c862"
+  },
+  {
+    "tabla": "fishing_trips",
+    "filas": 285,
+    "iguales": true,
+    "sha256": "844253ba01efa590065f9b1ee74e77c0812d77a862f9db3d12d43e269c7ad128"
+  },
+  {
+    "tabla": "fishing_zones",
+    "filas": 13,
+    "iguales": true,
+    "sha256": "290692bea0c4ef851b0b736b9d8104de7a9d68b4bd18ce1ca1178766c04651d8"
+  },
+  {
+    "tabla": "maritime_areas",
+    "filas": 3,
+    "iguales": true,
+    "sha256": "dbdf9379fe398d4a367f48b23d3e51fd992dca6c29108b7ca098d43b84741b59"
+  },
+  {
+    "tabla": "municipalities",
+    "filas": 31,
+    "iguales": true,
+    "sha256": "186290c2a150953f6cbd1d6e811f2d47687484c8f686ebef2444c964d6ad4d89"
+  },
+  {
+    "tabla": "organizations",
+    "filas": 12,
+    "iguales": true,
+    "sha256": "a6dc8e1b92c6607082114cba8b7816e77c9ae1e21e870743bf77fb9501aaf2c7"
+  },
+  {
+    "tabla": "quality_inspections",
+    "filas": 414,
+    "iguales": true,
+    "sha256": "4750801ec977e8854d6fe90362cad3810ed94576d1bdef8c82f8c218a2a53443"
+  },
+  {
+    "tabla": "roles",
+    "filas": 4,
+    "iguales": true,
+    "sha256": "01c19f5aea4f25153925c73f9cf6acefcccb5ad67789c77c9a2010d6cf986c94"
+  },
+  {
+    "tabla": "sale_details",
+    "filas": 403,
+    "iguales": true,
+    "sha256": "198f65f2ba86133ed2ab22a6673bb794f0c2150bdf03a6e4b4bdba8b2975b4d9"
+  },
+  {
+    "tabla": "sales",
+    "filas": 261,
+    "iguales": true,
+    "sha256": "f6f8abf9bd454ab6e49741f8105536edc264b0c037dc40f00e1404b70bfbc3a4"
+  },
+  {
+    "tabla": "sales_audit",
+    "filas": 2,
+    "iguales": true,
+    "sha256": "32bae2fd8d691ed3b04b77916d1b860917e0d8c1082da079fa413262c4b79251"
+  },
+  {
+    "tabla": "species",
+    "filas": 16,
+    "iguales": true,
+    "sha256": "c9063725137ee7f9761f06f2134096f710bca97b3328913079ad6d0c4d5e6af1"
+  },
+  {
+    "tabla": "species_local_names",
+    "filas": 19,
+    "iguales": true,
+    "sha256": "76ac1ebe576121e070100238a2a30c9ef12c42429f7d6180fede06f97cb960f6"
+  },
+  {
+    "tabla": "trip_crew",
+    "filas": 823,
+    "iguales": true,
+    "sha256": "64207ceb17724a476d96a3b0f25735b5fba750ebabf71cc1a14fe86bb8f735b6"
+  },
+  {
+    "tabla": "trip_gears",
+    "filas": 434,
+    "iguales": true,
+    "sha256": "01b786b464188c9f875bad5ac04ab4e3ead09f6fa88770bc7f0eadf5c185ba53"
+  },
+  {
+    "tabla": "users",
+    "filas": 8,
+    "iguales": true,
+    "sha256": "337ee0ae28e64a85859c5ed2f2f29cdc6a129573e43f88a7135877f5ff24a249"
+  },
+  {
+    "tabla": "vessels",
+    "filas": 58,
+    "iguales": true,
+    "sha256": "7ba07ba271fea9bfea9ef00e28fbf8368cc195d22d70b574ec1f4816b5505561"
+  }
+]
