@@ -1,0 +1,3 @@
+25 tablas con datos idénticos; inventario, totales y reglas verificados en 12.3.3-MariaDB
+tcl: resultados y errores esperados iguales
+procedimientos: resultados y errores esperados iguales

@@ -1,0 +1,95 @@
+--------------
+SELECT VERSION(),CURRENT_USER(),CURRENT_ROLE()
+--------------
+
++-----------+------------------+---------------------------+
+| VERSION() | CURRENT_USER()   | CURRENT_ROLE()            |
++-----------+------------------+---------------------------+
+| 8.4.11    | usr_inspector1@% | "rol_inspector_aunap"@"%" |
++-----------+------------------+---------------------------+
+1 row in set (0.07 sec)
+
+--------------
+SHOW STATUS LIKE 'Ssl_cipher'
+--------------
+
++---------------+------------------------+
+| Variable_name | Value                  |
++---------------+------------------------+
+| Ssl_cipher    | TLS_AES_256_GCM_SHA384 |
++---------------+------------------------+
+1 row in set (0.07 sec)
+
+--------------
+SHOW GRANTS
+--------------
+
++-------------------------------------------------------------------------+
+| Grants for usr_inspector1@%                                             |
++-------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO "usr_inspector1"@"%"                              |
+| GRANT SELECT ON "marazul_sucre"."catches" TO "usr_inspector1"@"%"       |
+| GRANT SELECT ON "marazul_sucre"."fishing_trips" TO "usr_inspector1"@"%" |
+| GRANT SELECT ON "marazul_sucre"."species" TO "usr_inspector1"@"%"       |
+| GRANT "rol_inspector_aunap"@"%" TO "usr_inspector1"@"%"                 |
++-------------------------------------------------------------------------+
+5 rows in set (0.07 sec)
+
+--------------
+SELECT CURRENT_USER() AS cuenta, CURRENT_ROLE() AS rol_activo
+--------------
+
++------------------+---------------------------+
+| cuenta           | rol_activo                |
++------------------+---------------------------+
+| usr_inspector1@% | "rol_inspector_aunap"@"%" |
++------------------+---------------------------+
+1 row in set (0.07 sec)
+
+--------------
+SELECT COUNT(*) AS capturas_visibles FROM catches
+--------------
+
++-------------------+
+| capturas_visibles |
++-------------------+
+|               535 |
++-------------------+
+1 row in set (0.08 sec)
+
+--------------
+SELECT species_id, common_name FROM species LIMIT 3
+--------------
+
++------------+--------------+
+| species_id | common_name  |
++------------+--------------+
+|         12 | Bagre rayado |
+|          8 | Barracuda    |
+|         11 | Bocachico    |
++------------+--------------+
+3 rows in set (0.07 sec)
+
+--------------
+INSERT INTO species (common_name, scientific_name, min_size_cm, habitat_type, organoleptic_description) VALUES ('Prueba', 'Prueba prueba', 10, 'MARINO', 'x')
+--------------
+
+--------------
+UPDATE catches SET weight_kg = weight_kg WHERE catch_id = 1
+--------------
+
+--------------
+DELETE FROM fishing_trips WHERE trip_id = 1
+--------------
+
+--------------
+SELECT COUNT(*) FROM sales
+--------------
+
+Bye
+
+ERRORES DEL CLIENTE
+ERROR 1142 (42000) at line 5: INSERT command denied to user 'usr_inspector1'@'<cliente>' for table 'species'
+ERROR 1142 (42000) at line 6: UPDATE command denied to user 'usr_inspector1'@'<cliente>' for table 'catches'
+ERROR 1142 (42000) at line 7: DELETE command denied to user 'usr_inspector1'@'<cliente>' for table 'fishing_trips'
+ERROR 1142 (42000) at line 8: SELECT command denied to user 'usr_inspector1'@'<cliente>' for table 'sales'

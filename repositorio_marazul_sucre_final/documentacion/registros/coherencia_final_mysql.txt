@@ -1,0 +1,20 @@
+--------------
+SELECT c.catch_id,
+       c.weight_kg,
+       COALESCE(v.sold_kg, 0)                          AS sold_kg,
+       c.available_weight_kg                           AS available_kg,
+       IF(c.available_weight_kg = c.weight_kg - COALESCE(v.sold_kg, 0),
+          'COHERENTE', 'DESCUADRADO')                  AS check_status
+FROM catches AS c
+LEFT JOIN (SELECT d.catch_id, SUM(d.sold_weight_kg) AS sold_kg
+           FROM sale_details AS d
+           INNER JOIN sales AS sa ON sa.sale_id = d.sale_id
+           WHERE sa.status <> 'ANULADA'
+           GROUP BY d.catch_id) AS v ON v.catch_id = c.catch_id
+WHERE c.catch_id IN (@catch_a1, @catch_a2, @catch_short, @catch_sierra)
+ORDER BY c.catch_id
+--------------
+
+Empty set (0.00 sec)
+
+Bye

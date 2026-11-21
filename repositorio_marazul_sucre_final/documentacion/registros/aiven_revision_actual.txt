@@ -1,0 +1,49 @@
+--------------
+SELECT VERSION(), CURRENT_USER(), CURRENT_ROLE()
+--------------
+
++-----------+------------------+----------------------------+
+| VERSION() | CURRENT_USER()   | CURRENT_ROLE()             |
++-----------+------------------+----------------------------+
+| 8.4.11    | usr_comercial1@% | "rol_gestor_comercial"@"%" |
++-----------+------------------+----------------------------+
+1 row in set (0.19 sec)
+
+--------------
+SHOW STATUS LIKE 'Ssl_cipher'
+--------------
+
++---------------+------------------------+
+| Variable_name | Value                  |
++---------------+------------------------+
+| Ssl_cipher    | TLS_AES_256_GCM_SHA384 |
++---------------+------------------------+
+1 row in set (0.10 sec)
+
+--------------
+SHOW GRANTS
+--------------
+
++----------------------------------------------------------------------------------------+
+| Grants for usr_comercial1@%                                                            |
++----------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO "usr_comercial1"@"%"                                             |
+| GRANT SELECT ON "marazul_sucre"."buyers" TO "usr_comercial1"@"%"                       |
+| GRANT SELECT, INSERT, UPDATE ON "marazul_sucre"."sale_details" TO "usr_comercial1"@"%" |
+| GRANT SELECT, INSERT, UPDATE ON "marazul_sucre"."sales" TO "usr_comercial1"@"%"        |
+| GRANT "rol_gestor_comercial"@"%" TO "usr_comercial1"@"%"                               |
++----------------------------------------------------------------------------------------+
+5 rows in set (0.21 sec)
+
+--------------
+SELECT COUNT(*) AS compradores FROM buyers
+--------------
+
++-------------+
+| compradores |
++-------------+
+|          80 |
++-------------+
+1 row in set (0.20 sec)
+
+Bye

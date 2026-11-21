@@ -1,0 +1,66 @@
+--------------
+SELECT CURRENT_USER() AS cuenta, CURRENT_ROLE() AS rol_activo
+--------------
+
++-----------------+---------------------+
+| cuenta          | rol_activo          |
++-----------------+---------------------+
+| usr_operador1@% | rol_operador_muelle |
++-----------------+---------------------+
+1 row in set (0.000 sec)
+
+--------------
+START TRANSACTION
+--------------
+
+Query OK, 0 rows affected (0.000 sec)
+
+--------------
+INSERT INTO fishing_trips (vessel_id, zone_id, coordinator_id, departure_at) VALUES (1, 1, 1, '2026-11-12 05:00:00')
+--------------
+
+Query OK, 1 row affected (0.000 sec)
+
+--------------
+UPDATE catches SET piece_count = piece_count + 1 WHERE catch_id = 1
+--------------
+
+Query OK, 1 row affected (0.001 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+--------------
+SELECT COUNT(*) AS jornadas_en_la_transaccion FROM fishing_trips
+--------------
+
++----------------------------+
+| jornadas_en_la_transaccion |
++----------------------------+
+|                        286 |
++----------------------------+
+1 row in set (0.000 sec)
+
+--------------
+ROLLBACK
+--------------
+
+Query OK, 0 rows affected (0.003 sec)
+
+--------------
+DELETE FROM catches WHERE catch_id = 1
+--------------
+
+--------------
+SELECT COUNT(*) FROM sales
+--------------
+
+--------------
+INSERT INTO sale_details (sale_id, catch_id, sold_weight_kg, unit_price) VALUES (1, 1, 1, 1000)
+--------------
+
+Bye
+
+ERRORES DEL CLIENTE
+WARNING: option --ssl-verify-server-cert is disabled, because of an insecure passwordless login.
+ERROR 1142 (42000) at line 8: DELETE command denied to user 'usr_operador1'@'localhost' for table `marazul_sucre`.`catches`
+ERROR 1142 (42000) at line 9: SELECT command denied to user 'usr_operador1'@'localhost' for table `marazul_sucre`.`sales`
+ERROR 1142 (42000) at line 10: INSERT command denied to user 'usr_operador1'@'localhost' for table `marazul_sucre`.`sale_details`
