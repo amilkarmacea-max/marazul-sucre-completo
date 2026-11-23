@@ -1,0 +1,101 @@
+--------------
+SELECT VERSION(),CURRENT_USER(),CURRENT_ROLE()
+--------------
+
++-----------+-----------------+---------------------------+
+| VERSION() | CURRENT_USER()  | CURRENT_ROLE()            |
++-----------+-----------------+---------------------------+
+| 8.4.11    | usr_operador1@% | "rol_operador_muelle"@"%" |
++-----------+-----------------+---------------------------+
+1 row in set (0.09 sec)
+
+--------------
+SHOW STATUS LIKE 'Ssl_cipher'
+--------------
+
++---------------+------------------------+
+| Variable_name | Value                  |
++---------------+------------------------+
+| Ssl_cipher    | TLS_AES_256_GCM_SHA384 |
++---------------+------------------------+
+1 row in set (0.09 sec)
+
+--------------
+SHOW GRANTS
+--------------
+
++----------------------------------------------------------------------------------------+
+| Grants for usr_operador1@%                                                             |
++----------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO "usr_operador1"@"%"                                              |
+| GRANT SELECT, INSERT, UPDATE ON "marazul_sucre"."catches" TO "usr_operador1"@"%"       |
+| GRANT SELECT, INSERT, UPDATE ON "marazul_sucre"."fishing_trips" TO "usr_operador1"@"%" |
+| GRANT "rol_operador_muelle"@"%" TO "usr_operador1"@"%"                                 |
++----------------------------------------------------------------------------------------+
+4 rows in set (0.10 sec)
+
+--------------
+SELECT CURRENT_USER() AS cuenta, CURRENT_ROLE() AS rol_activo
+--------------
+
++-----------------+---------------------------+
+| cuenta          | rol_activo                |
++-----------------+---------------------------+
+| usr_operador1@% | "rol_operador_muelle"@"%" |
++-----------------+---------------------------+
+1 row in set (0.11 sec)
+
+--------------
+START TRANSACTION
+--------------
+
+Query OK, 0 rows affected (0.09 sec)
+
+--------------
+INSERT INTO fishing_trips (vessel_id, zone_id, coordinator_id, departure_at) VALUES (1, 1, 1, '2026-11-12 05:00:00')
+--------------
+
+Query OK, 1 row affected (0.09 sec)
+
+--------------
+UPDATE catches SET piece_count = piece_count + 1 WHERE catch_id = 1
+--------------
+
+Query OK, 1 row affected (0.10 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+--------------
+SELECT COUNT(*) AS jornadas_en_la_transaccion FROM fishing_trips
+--------------
+
++----------------------------+
+| jornadas_en_la_transaccion |
++----------------------------+
+|                        286 |
++----------------------------+
+1 row in set (0.08 sec)
+
+--------------
+ROLLBACK
+--------------
+
+Query OK, 0 rows affected (0.09 sec)
+
+--------------
+DELETE FROM catches WHERE catch_id = 1
+--------------
+
+--------------
+SELECT COUNT(*) FROM sales
+--------------
+
+--------------
+INSERT INTO sale_details (sale_id, catch_id, sold_weight_kg, unit_price) VALUES (1, 1, 1, 1000)
+--------------
+
+Bye
+
+ERRORES DEL CLIENTE
+ERROR 1142 (42000) at line 8: DELETE command denied to user 'usr_operador1'@'<cliente>' for table 'catches'
+ERROR 1142 (42000) at line 9: SELECT command denied to user 'usr_operador1'@'<cliente>' for table 'sales'
+ERROR 1142 (42000) at line 10: INSERT command denied to user 'usr_operador1'@'<cliente>' for table 'sale_details'

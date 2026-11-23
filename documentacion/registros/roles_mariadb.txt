@@ -1,0 +1,233 @@
+--------------
+DROP USER IF EXISTS 'usr_operador1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.010 sec)
+
+--------------
+DROP USER IF EXISTS 'usr_comercial1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+DROP USER IF EXISTS 'usr_inspector1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+DROP ROLE IF EXISTS 'rol_operador_muelle'
+--------------
+
+Query OK, 0 rows affected (0.002 sec)
+
+--------------
+DROP ROLE IF EXISTS 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+DROP ROLE IF EXISTS 'rol_inspector_aunap'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+CREATE ROLE 'rol_operador_muelle'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+CREATE ROLE 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+CREATE ROLE 'rol_inspector_aunap'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT, INSERT, UPDATE ON marazul_sucre.fishing_trips TO 'rol_operador_muelle'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT, INSERT, UPDATE ON marazul_sucre.catches       TO 'rol_operador_muelle'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT, INSERT, UPDATE ON marazul_sucre.sales        TO 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT, INSERT, UPDATE ON marazul_sucre.sale_details TO 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT ON marazul_sucre.fishing_trips TO 'rol_inspector_aunap'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT ON marazul_sucre.catches       TO 'rol_inspector_aunap'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT SELECT ON marazul_sucre.species       TO 'rol_inspector_aunap'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT DELETE ON marazul_sucre.sales TO 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SELECT grantee, table_name, privilege_type
+FROM information_schema.table_privileges
+WHERE table_schema = 'marazul_sucre'
+  AND table_name = 'sales'
+  AND privilege_type = 'DELETE'
+  AND grantee LIKE '%rol_gestor_comercial%'
+--------------
+
++---------------------------+------------+----------------+
+| grantee                   | table_name | privilege_type |
++---------------------------+------------+----------------+
+| 'rol_gestor_comercial'@'' | sales      | DELETE         |
++---------------------------+------------+----------------+
+1 row in set (0.000 sec)
+
+--------------
+REVOKE DELETE ON marazul_sucre.sales FROM 'rol_gestor_comercial'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SELECT grantee, table_name, privilege_type
+FROM information_schema.table_privileges
+WHERE table_schema = 'marazul_sucre'
+  AND table_name = 'sales'
+  AND privilege_type = 'DELETE'
+  AND grantee LIKE '%rol_gestor_comercial%'
+--------------
+
+Empty set (0.000 sec)
+
+--------------
+CREATE USER 'usr_operador1'@'%'  IDENTIFIED BY 'Muelle#Op1_2026'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+CREATE USER 'usr_comercial1'@'%' IDENTIFIED BY 'Ventas#Com1_2026'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+CREATE USER 'usr_inspector1'@'%' IDENTIFIED BY 'Aunap#Insp1_2026'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT 'rol_operador_muelle'  TO 'usr_operador1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT 'rol_gestor_comercial' TO 'usr_comercial1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+GRANT 'rol_inspector_aunap'  TO 'usr_inspector1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SET DEFAULT ROLE 'rol_operador_muelle' FOR 'usr_operador1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SET DEFAULT ROLE 'rol_gestor_comercial' FOR 'usr_comercial1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SET DEFAULT ROLE 'rol_inspector_aunap' FOR 'usr_inspector1'@'%'
+--------------
+
+Query OK, 0 rows affected (0.001 sec)
+
+--------------
+SHOW GRANTS FOR 'usr_operador1'@'%'
+--------------
+
++--------------------------------------------------------------------------------------------------------------+
+| Grants for usr_operador1@%                                                                                   |
++--------------------------------------------------------------------------------------------------------------+
+| GRANT `rol_operador_muelle` TO `usr_operador1`@`%`                                                           |
+| GRANT USAGE ON *.* TO `usr_operador1`@`%` IDENTIFIED BY PASSWORD '*8361DEE349AB5F05626753ABF007DE7305120203' |
+| SET DEFAULT ROLE `rol_operador_muelle` FOR `usr_operador1`@`%`                                               |
++--------------------------------------------------------------------------------------------------------------+
+3 rows in set (0.000 sec)
+
+--------------
+SHOW GRANTS FOR 'usr_comercial1'@'%'
+--------------
+
++---------------------------------------------------------------------------------------------------------------+
+| Grants for usr_comercial1@%                                                                                   |
++---------------------------------------------------------------------------------------------------------------+
+| GRANT `rol_gestor_comercial` TO `usr_comercial1`@`%`                                                          |
+| GRANT USAGE ON *.* TO `usr_comercial1`@`%` IDENTIFIED BY PASSWORD '*53616D970189BF9128116BB0F41CE3549B778E2D' |
+| SET DEFAULT ROLE `rol_gestor_comercial` FOR `usr_comercial1`@`%`                                              |
++---------------------------------------------------------------------------------------------------------------+
+3 rows in set (0.000 sec)
+
+--------------
+SHOW GRANTS FOR 'usr_inspector1'@'%'
+--------------
+
++---------------------------------------------------------------------------------------------------------------+
+| Grants for usr_inspector1@%                                                                                   |
++---------------------------------------------------------------------------------------------------------------+
+| GRANT `rol_inspector_aunap` TO `usr_inspector1`@`%`                                                           |
+| GRANT USAGE ON *.* TO `usr_inspector1`@`%` IDENTIFIED BY PASSWORD '*F433C85C3106D49ACD7393923640FE5D941EB0D9' |
+| SET DEFAULT ROLE `rol_inspector_aunap` FOR `usr_inspector1`@`%`                                               |
++---------------------------------------------------------------------------------------------------------------+
+3 rows in set (0.000 sec)
+
+Bye
+
+ERRORES DEL CLIENTE
+
+Código de salida: 0

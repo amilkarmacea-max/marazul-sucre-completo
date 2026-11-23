@@ -1,0 +1,85 @@
+WARNING: option --ssl-verify-server-cert is disabled, because of an insecure passwordless login.
+--------------
+SELECT VERSION(), CURRENT_USER()
+--------------
+
++----------------+----------------+
+| VERSION()      | CURRENT_USER() |
++----------------+----------------+
+| 12.3.3-MariaDB | root@localhost |
++----------------+----------------+
+1 row in set (0.000 sec)
+
+--------------
+SHOW COLLATION LIKE 'utf8mb4_0900_ai_ci'
+--------------
+
++--------------------+---------+------+---------+----------+---------+---------------+
+| Collation          | Charset | Id   | Default | Compiled | Sortlen | Pad_attribute |
++--------------------+---------+------+---------+----------+---------+---------------+
+| utf8mb4_0900_ai_ci | utf8mb4 |  255 |         | Yes      |       8 | NO PAD        |
++--------------------+---------+------+---------+----------+---------+---------------+
+1 row in set (0.000 sec)
+
+--------------
+SELECT TABLE_NAME,TABLE_TYPE FROM information_schema.tables WHERE table_schema='marazul_sucre' ORDER BY TABLE_NAME
+--------------
+
++------------------------------+------------+
+| TABLE_NAME                   | TABLE_TYPE |
++------------------------------+------------+
+| buyers                       | BASE TABLE |
+| catches                      | BASE TABLE |
+| catch_audit                  | BASE TABLE |
+| collection_centers           | BASE TABLE |
+| countries                    | BASE TABLE |
+| departments                  | BASE TABLE |
+| employees                    | BASE TABLE |
+| fishermen                    | BASE TABLE |
+| fishing_gears                | BASE TABLE |
+| fishing_trips                | BASE TABLE |
+| fishing_zones                | BASE TABLE |
+| maritime_areas               | BASE TABLE |
+| municipalities               | BASE TABLE |
+| organizations                | BASE TABLE |
+| quality_inspections          | BASE TABLE |
+| roles                        | BASE TABLE |
+| sales                        | BASE TABLE |
+| sales_audit                  | BASE TABLE |
+| sale_details                 | BASE TABLE |
+| species                      | BASE TABLE |
+| species_local_names          | BASE TABLE |
+| trip_crew                    | BASE TABLE |
+| trip_gears                   | BASE TABLE |
+| users                        | BASE TABLE |
+| vessels                      | BASE TABLE |
+| vw_available_catches_at_dock | VIEW       |
+| vw_fishing_trip_summary      | VIEW       |
+| vw_fish_marketing_kpis       | VIEW       |
++------------------------------+------------+
+28 rows in set (0.003 sec)
+
+--------------
+SELECT ROUTINE_TYPE,COUNT(*) FROM information_schema.routines WHERE routine_schema='marazul_sucre' GROUP BY ROUTINE_TYPE
+--------------
+
++--------------+----------+
+| ROUTINE_TYPE | COUNT(*) |
++--------------+----------+
+| FUNCTION     |        3 |
+| PROCEDURE    |        3 |
++--------------+----------+
+2 rows in set (0.008 sec)
+
+--------------
+SELECT COUNT(*) AS triggers FROM information_schema.triggers WHERE trigger_schema='marazul_sucre'
+--------------
+
++----------+
+| triggers |
++----------+
+|        6 |
++----------+
+1 row in set (0.024 sec)
+
+Bye

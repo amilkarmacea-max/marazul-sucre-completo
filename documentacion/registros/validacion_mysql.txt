@@ -1,0 +1,38 @@
+buyers	80
+catch_audit	0
+catches	535
+collection_centers	6
+countries	1
+departments	4
+employees	24
+fishermen	200
+fishing_gears	8
+fishing_trips	285
+fishing_zones	13
+maritime_areas	3
+municipalities	31
+organizations	12
+quality_inspections	414
+roles	4
+sale_details	403
+sales	261
+sales_audit	2
+species	16
+species_local_names	19
+trip_crew	823
+trip_gears	434
+users	8
+vessels	58
+98640.86	62454.64
+746676204.00
+421
+285
+16
+3691.16
+
+ERRORES DEL CLIENTE
+ERROR 1644 (45000) at line 61: Available catch weight cannot be negative.
+ERROR 1062 (23000) at line 62: Duplicate entry '1' for key 'trip_crew.uq_trip_crew_one_responsible'
+ERROR 1644 (45000) at line 63: sales_audit is immutable: updates are not allowed.
+
+Código de salida: 0

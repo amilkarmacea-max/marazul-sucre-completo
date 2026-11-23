@@ -1,0 +1,58 @@
+--------------
+SELECT CURRENT_USER() AS cuenta, CURRENT_ROLE() AS rol_activo
+--------------
+
++------------------+---------------------------+
+| cuenta           | rol_activo                |
++------------------+---------------------------+
+| usr_inspector1@% | `rol_inspector_aunap`@`%` |
++------------------+---------------------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT COUNT(*) AS capturas_visibles FROM catches
+--------------
+
++-------------------+
+| capturas_visibles |
++-------------------+
+|               535 |
++-------------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT species_id, common_name FROM species LIMIT 3
+--------------
+
++------------+--------------+
+| species_id | common_name  |
++------------+--------------+
+|         12 | Bagre rayado |
+|          8 | Barracuda    |
+|         11 | Bocachico    |
++------------+--------------+
+3 rows in set (0.00 sec)
+
+--------------
+INSERT INTO species (common_name, scientific_name, min_size_cm, habitat_type, organoleptic_description) VALUES ('Prueba', 'Prueba prueba', 10, 'MARINO', 'x')
+--------------
+
+--------------
+UPDATE catches SET weight_kg = weight_kg WHERE catch_id = 1
+--------------
+
+--------------
+DELETE FROM fishing_trips WHERE trip_id = 1
+--------------
+
+--------------
+SELECT COUNT(*) FROM sales
+--------------
+
+Bye
+
+ERRORES DEL CLIENTE
+ERROR 1142 (42000) at line 5: INSERT command denied to user 'usr_inspector1'@'localhost' for table 'species'
+ERROR 1142 (42000) at line 6: UPDATE command denied to user 'usr_inspector1'@'localhost' for table 'catches'
+ERROR 1142 (42000) at line 7: DELETE command denied to user 'usr_inspector1'@'localhost' for table 'fishing_trips'
+ERROR 1142 (42000) at line 8: SELECT command denied to user 'usr_inspector1'@'localhost' for table 'sales'
